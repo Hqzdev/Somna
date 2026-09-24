@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1176DD46196296E78A522132 /* WatchViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BE922598AE955206CE68A /* WatchViews.swift */; };
+		1249ABDDB85E060F41A979CB /* WatchSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D07B0818AD6CDDCD34D16 /* WatchSnapshotStore.swift */; };
+		57F4B783D03A5E9F21D8E3F7 /* WatchConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42E03BD9308597E38C673D /* WatchConnection.swift */; };
+		7F3FD15BAD41464A1FB4E31E /* WatchSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13F88876D2A7FAF17AB7B8 /* WatchSnapshot.swift */; };
+		88806D93E93D1C08BB0DF345 /* SomnaWatchWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE13C75FBBF2F39CF03FC457 /* SomnaWatchWidgets.swift */; };
+		949D023BB6025BDFC9B3C754 /* SomnaWatchWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6BE63E2D08BA4B582BCB7DD /* SomnaWatchWidgets.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A6D31E111FC0B275EB51A192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D17A8976DC4BE3C72D3F28 /* Assets.xcassets */; };
+		BCC521A3226AF3E62FA7E45B /* SomnaWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B9CC0EBBC83A02EEAB813EA2 /* SomnaWatch.app */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		CB6AADDB11996BFFC491C29F /* SomnaWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ABC28F9CE39BF26A6E8952 /* SomnaWatchApp.swift */; };
+		D93FCAFC1B1B3D3D2B02CB46 /* WatchSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13F88876D2A7FAF17AB7B8 /* WatchSnapshot.swift */; };
+		DFD0A65E0CD1FC3E604CADC6 /* WatchSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D07B0818AD6CDDCD34D16 /* WatchSnapshotStore.swift */; };
+		90C8A4302CFCA2351E5A6EC8 /* SomnaWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDE815CD385ED730F79D34 /* SomnaWidgets.swift */; };
+		9E20A42E7556F994025D5FF9 /* WidgetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4009D6CBF6F7B19C037FACB /* WidgetViews.swift */; };
+		9BD9CB3F2559907FABE59D7D /* AccessoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049039634109B21268632190 /* AccessoryViews.swift */; };
+		B95459C3113ADA24ADDDA590 /* WidgetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3EDDCBF5E1CA78A3E425F /* WidgetStyle.swift */; };
+		A5FF96803CB5A63E7FB08499 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D99DA5000463ACD8D1567B /* WidgetSnapshot.swift */; };
+		6A7413AEF7E93C508D1D4496 /* InterTight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FCA926760CBA12B82F27E93 /* InterTight-Regular.ttf */; };
+		3B305701347738A9F994337B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B5218E514D1DD9BF2F20B0C /* Inter-Regular.ttf */; };
+		678A6BB3CD762461984A8DB6 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7F14CA6A4049A095659FEFE /* Inter-Medium.ttf */; };
+		8BE95162E4AE62ECB99E53DC /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8C6560097F09CB1B74BF69B /* Inter-SemiBold.ttf */; };
+		338A2FC9E53C58ABE0F394E8 /* SomnaWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 041D8BEABE7186812BFA28E7 /* SomnaWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		296D1AA1EBD2236412826FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CA948A3063C22A00604B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1EB8A77240FD602F331B6C4;
+			remoteInfo = SomnaWatch;
+		};
+		F9002777D1040550F5A0C96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CA948A3063C22A00604B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B9D24461EE319F08D71BED;
+			remoteInfo = SomnaWatchWidgets;
+		};
+		E2BE150DAF7B3DBC8D7779F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CA948A3063C22A00604B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D834893CB3CFD4D32D55AC3D;
+			remoteInfo = SomnaWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A35D605D4DCFD816FC39974E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				949D023BB6025BDFC9B3C754 /* SomnaWatchWidgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+		};
+		DC752BF2BDFD65CFA1BEC32B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				BCC521A3226AF3E62FA7E45B /* SomnaWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+		};
+		32317D4085C78FC35E7EF72A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				338A2FC9E53C58ABE0F394E8 /* SomnaWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13CA94923063C22A00604B23 /* Somna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Somna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353BE922598AE955206CE68A /* WatchViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WatchViews.swift; path = WatchApp/WatchViews.swift; sourceTree = SOURCE_ROOT; };
+		62F126A1E4474DCC0EFA1238 /* WatchApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WatchApp.entitlements; path = WatchApp/WatchApp.entitlements; sourceTree = SOURCE_ROOT; };
+		6ED978F6D3838C5A8A840B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WatchApp/Info.plist; sourceTree = SOURCE_ROOT; };
+		755D07B0818AD6CDDCD34D16 /* WatchSnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WatchSnapshotStore.swift; path = Somna/WatchShared/WatchSnapshotStore.swift; sourceTree = SOURCE_ROOT; };
+		8B42E03BD9308597E38C673D /* WatchConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WatchConnection.swift; path = WatchApp/WatchConnection.swift; sourceTree = SOURCE_ROOT; };
+		B0ABC28F9CE39BF26A6E8952 /* SomnaWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SomnaWatchApp.swift; path = WatchApp/SomnaWatchApp.swift; sourceTree = SOURCE_ROOT; };
+		B6BE63E2D08BA4B582BCB7DD /* SomnaWatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SomnaWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D17A8976DC4BE3C72D3F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WatchApp/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		B9CC0EBBC83A02EEAB813EA2 /* SomnaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomnaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD6B20BBFAFDE830DDEFAD7 /* WatchWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WatchWidgets.entitlements; path = WatchWidgets/WatchWidgets.entitlements; sourceTree = SOURCE_ROOT; };
+		EE13C75FBBF2F39CF03FC457 /* SomnaWatchWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SomnaWatchWidgets.swift; path = WatchWidgets/SomnaWatchWidgets.swift; sourceTree = SOURCE_ROOT; };
+		FCBD6462C5748A42906B80DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WatchWidgets/Info.plist; sourceTree = SOURCE_ROOT; };
+		FE13F88876D2A7FAF17AB7B8 /* WatchSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WatchSnapshot.swift; path = Somna/WatchShared/WatchSnapshot.swift; sourceTree = SOURCE_ROOT; };
+		041D8BEABE7186812BFA28E7 /* SomnaWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SomnaWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEDE815CD385ED730F79D34 /* SomnaWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SomnaWidgets.swift; path = SomnaWidgets/SomnaWidgets.swift; sourceTree = SOURCE_ROOT; };
+		E4009D6CBF6F7B19C037FACB /* WidgetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WidgetViews.swift; path = SomnaWidgets/WidgetViews.swift; sourceTree = SOURCE_ROOT; };
+		049039634109B21268632190 /* AccessoryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccessoryViews.swift; path = SomnaWidgets/AccessoryViews.swift; sourceTree = SOURCE_ROOT; };
+		BFC3EDDCBF5E1CA78A3E425F /* WidgetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WidgetStyle.swift; path = SomnaWidgets/WidgetStyle.swift; sourceTree = SOURCE_ROOT; };
+		28D99DA5000463ACD8D1567B /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WidgetSnapshot.swift; path = Somna/WidgetShared/WidgetSnapshot.swift; sourceTree = SOURCE_ROOT; };
+		6FD72D72AA73FBDAE66723D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SomnaWidgets/Info.plist; sourceTree = SOURCE_ROOT; };
+		9E15AFC0A523D03D45FEDF50 /* SomnaWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = SomnaWidgets.entitlements; path = SomnaWidgets/SomnaWidgets.entitlements; sourceTree = SOURCE_ROOT; };
+		5FCA926760CBA12B82F27E93 /* InterTight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = InterTight-Regular.ttf; path = Somna/Resources/Fonts/InterTight-Regular.ttf; sourceTree = SOURCE_ROOT; };
+		7B5218E514D1DD9BF2F20B0C /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Inter-Regular.ttf; path = Somna/Resources/Fonts/Inter-Regular.ttf; sourceTree = SOURCE_ROOT; };
+		A7F14CA6A4049A095659FEFE /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Inter-Medium.ttf; path = Somna/Resources/Fonts/Inter-Medium.ttf; sourceTree = SOURCE_ROOT; };
+		A8C6560097F09CB1B74BF69B /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Inter-SemiBold.ttf; path = Somna/Resources/Fonts/Inter-SemiBold.ttf; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		13CA94943063C22A00604B23 /* Somna */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Somna;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05A17F0CD06732F06367BF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		13CA948F3063C22A00604B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		E2416579767BA7623F0213BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		E2935BA2F49C15987E2696EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E885EEAE482D610D0CBED7 /* WatchWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				EE13C75FBBF2F39CF03FC457 /* SomnaWatchWidgets.swift */,
+				FCBD6462C5748A42906B80DA /* Info.plist */,
+				CDD6B20BBFAFDE830DDEFAD7 /* WatchWidgets.entitlements */,
+			);
+			name = WatchWidgets;
+			sourceTree = "<group>";
+		};
+		13CA94893063C22A00604B23 = {
+			isa = PBXGroup;
+			children = (
+				13CA94943063C22A00604B23 /* Somna */,
+				2D08EE8B8B5FC5FAA07D2C65 /* WatchApp */,
+				07E885EEAE482D610D0CBED7 /* WatchWidgets */,
+				BE17888FF0EB7F53F9BF4265 /* WatchShared */,
+				D4A9E44578551E06BF0EBD04 /* SomnaWidgets */,
+				865418C2780C28DE21DC949F /* WidgetShared */,
+				13CA94933063C22A00604B23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13CA94933063C22A00604B23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13CA94923063C22A00604B23 /* Somna.app */,
+				B9CC0EBBC83A02EEAB813EA2 /* SomnaWatch.app */,
+				B6BE63E2D08BA4B582BCB7DD /* SomnaWatchWidgets.appex */,
+				041D8BEABE7186812BFA28E7 /* SomnaWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D08EE8B8B5FC5FAA07D2C65 /* WatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				B0ABC28F9CE39BF26A6E8952 /* SomnaWatchApp.swift */,
+				8B42E03BD9308597E38C673D /* WatchConnection.swift */,
+				353BE922598AE955206CE68A /* WatchViews.swift */,
+				B7D17A8976DC4BE3C72D3F28 /* Assets.xcassets */,
+				6ED978F6D3838C5A8A840B96 /* Info.plist */,
+				62F126A1E4474DCC0EFA1238 /* WatchApp.entitlements */,
+			);
+			name = WatchApp;
+			sourceTree = "<group>";
+		};
+		BE17888FF0EB7F53F9BF4265 /* WatchShared */ = {
+			isa = PBXGroup;
+			children = (
+				FE13F88876D2A7FAF17AB7B8 /* WatchSnapshot.swift */,
+				755D07B0818AD6CDDCD34D16 /* WatchSnapshotStore.swift */,
+			);
+			name = WatchShared;
+			sourceTree = "<group>";
+		};
+		D4A9E44578551E06BF0EBD04 /* SomnaWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDE815CD385ED730F79D34 /* SomnaWidgets.swift */,
+				E4009D6CBF6F7B19C037FACB /* WidgetViews.swift */,
+				049039634109B21268632190 /* AccessoryViews.swift */,
+				BFC3EDDCBF5E1CA78A3E425F /* WidgetStyle.swift */,
+				6FD72D72AA73FBDAE66723D0 /* Info.plist */,
+				9E15AFC0A523D03D45FEDF50 /* SomnaWidgets.entitlements */,
+				5FCA926760CBA12B82F27E93 /* InterTight-Regular.ttf */,
+				7B5218E514D1DD9BF2F20B0C /* Inter-Regular.ttf */,
+				A7F14CA6A4049A095659FEFE /* Inter-Medium.ttf */,
+				A8C6560097F09CB1B74BF69B /* Inter-SemiBold.ttf */,
+			);
+			name = SomnaWidgets;
+			sourceTree = "<group>";
+		};
+		865418C2780C28DE21DC949F /* WidgetShared */ = {
+			isa = PBXGroup;
+			children = (
+				28D99DA5000463ACD8D1567B /* WidgetSnapshot.swift */,
+			);
+			name = WidgetShared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13CA94913063C22A00604B23 /* Somna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CA949D3063C22A00604B23 /* Build configuration list for PBXNativeTarget "Somna" */;
+			buildPhases = (
+				13CA948E3063C22A00604B23 /* Sources */,
+				13CA948F3063C22A00604B23 /* Frameworks */,
+				13CA94903063C22A00604B23 /* Resources */,
+				DC752BF2BDFD65CFA1BEC32B /* Embed Watch Content */,
+				32317D4085C78FC35E7EF72A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460AA906BC189481BC276F3E /* PBXTargetDependency */,
+				5E182342B48C48416442F05A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				13CA94943063C22A00604B23 /* Somna */,
+			);
+			name = Somna;
+			productName = Somna;
+			productReference = 13CA94923063C22A00604B23 /* Somna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9B9D24461EE319F08D71BED /* SomnaWatchWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0CAEC122072AC9C1699E3C /* Build configuration list for PBXNativeTarget "SomnaWatchWidgets" */;
+			buildPhases = (
+				0C96E4015684E8E87E793A08 /* Sources */,
+				E2416579767BA7623F0213BE /* Frameworks */,
+				22932ED2E4A72E2E96514E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			name = SomnaWatchWidgets;
+			productName = SomnaWatchWidgets;
+			productReference = B6BE63E2D08BA4B582BCB7DD /* SomnaWatchWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E1EB8A77240FD602F331B6C4 /* SomnaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725E6DDDD4DAEC5CA5EE6983 /* Build configuration list for PBXNativeTarget "SomnaWatch" */;
+			buildPhases = (
+				32A21745345AA055A486F864 /* Sources */,
+				05A17F0CD06732F06367BF20 /* Frameworks */,
+				00EAD6D43DC6C143017C5412 /* Resources */,
+				A35D605D4DCFD816FC39974E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D93EFC96D893947F506F0F09 /* PBXTargetDependency */,
+			);
+			name = SomnaWatch;
+			productName = SomnaWatch;
+			productReference = B9CC0EBBC83A02EEAB813EA2 /* SomnaWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D834893CB3CFD4D32D55AC3D /* SomnaWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C65726B3153D08C8D03191 /* Build configuration list for PBXNativeTarget "SomnaWidgets" */;
+			buildPhases = (
+				10C8EDA77DCC39E1110DBA4E /* Sources */,
+				E2935BA2F49C15987E2696EE /* Frameworks */,
+				E406CEE3CD9AB51339E94E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SomnaWidgets;
+			productName = SomnaWidgets;
+			productReference = 041D8BEABE7186812BFA28E7 /* SomnaWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13CA948A3063C22A00604B23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					13CA94913063C22A00604B23 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					B9B9D24461EE319F08D71BED = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					E1EB8A77240FD602F331B6C4 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D834893CB3CFD4D32D55AC3D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 13CA948D3063C22A00604B23 /* Build configuration list for PBXProject "Somna" */;
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ru,
+				Base,
+			);
+			mainGroup = 13CA94893063C22A00604B23;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 13CA94933063C22A00604B23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13CA94913063C22A00604B23 /* Somna */,
+				E1EB8A77240FD602F331B6C4 /* SomnaWatch */,
+				B9B9D24461EE319F08D71BED /* SomnaWatchWidgets */,
+				D834893CB3CFD4D32D55AC3D /* SomnaWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00EAD6D43DC6C143017C5412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				A6D31E111FC0B275EB51A192 /* Assets.xcassets in Resources */,
+			);
+		};
+		13CA94903063C22A00604B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		22932ED2E4A72E2E96514E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		E406CEE3CD9AB51339E94E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				6A7413AEF7E93C508D1D4496 /* InterTight-Regular.ttf in Resources */,
+				3B305701347738A9F994337B /* Inter-Regular.ttf in Resources */,
+				678A6BB3CD762461984A8DB6 /* Inter-Medium.ttf in Resources */,
+				8BE95162E4AE62ECB99E53DC /* Inter-SemiBold.ttf in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C96E4015684E8E87E793A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				88806D93E93D1C08BB0DF345 /* SomnaWatchWidgets.swift in Sources */,
+				D93FCAFC1B1B3D3D2B02CB46 /* WatchSnapshot.swift in Sources */,
+				1249ABDDB85E060F41A979CB /* WatchSnapshotStore.swift in Sources */,
+			);
+		};
+		13CA948E3063C22A00604B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		32A21745345AA055A486F864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				CB6AADDB11996BFFC491C29F /* SomnaWatchApp.swift in Sources */,
+				57F4B783D03A5E9F21D8E3F7 /* WatchConnection.swift in Sources */,
+				1176DD46196296E78A522132 /* WatchViews.swift in Sources */,
+				7F3FD15BAD41464A1FB4E31E /* WatchSnapshot.swift in Sources */,
+				DFD0A65E0CD1FC3E604CADC6 /* WatchSnapshotStore.swift in Sources */,
+			);
+		};
+		10C8EDA77DCC39E1110DBA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				90C8A4302CFCA2351E5A6EC8 /* SomnaWidgets.swift in Sources */,
+				9E20A42E7556F994025D5FF9 /* WidgetViews.swift in Sources */,
+				9BD9CB3F2559907FABE59D7D /* AccessoryViews.swift in Sources */,
+				B95459C3113ADA24ADDDA590 /* WidgetStyle.swift in Sources */,
+				A5FF96803CB5A63E7FB08499 /* WidgetSnapshot.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		460AA906BC189481BC276F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1EB8A77240FD602F331B6C4 /* SomnaWatch */;
+			targetProxy = 296D1AA1EBD2236412826FF8 /* PBXContainerItemProxy */;
+		};
+		D93EFC96D893947F506F0F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B9D24461EE319F08D71BED /* SomnaWatchWidgets */;
+			targetProxy = F9002777D1040550F5A0C96C /* PBXContainerItemProxy */;
+		};
+		5E182342B48C48416442F05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D834893CB3CFD4D32D55AC3D /* SomnaWidgets */;
+			targetProxy = E2BE150DAF7B3DBC8D7779F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1029418CFD136AE59662A699 /* Release configuration for PBXNativeTarget "SomnaWatch" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchApp/WatchApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Somna;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Somna.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		13CA949B3063C22A00604B23 /* Debug configuration for PBXProject "Somna" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13CA949C3063C22A00604B23 /* Release configuration for PBXProject "Somna" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13CA949E3063C22A00604B23 /* Debug configuration for PBXNativeTarget "Somna" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Somna.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Somna-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Somna читает сон и его стадии, пульс, вариабельность пульса, дыхание, температуру запястья, кислород в крови, шаги, тренировки, дневной свет, кофеин и алкоголь — только чтобы объяснить вашу ночь и собрать план на вечер. Данные остаются на этом iPhone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Somna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13CA949F3063C22A00604B23 /* Release configuration for PBXNativeTarget "Somna" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Somna.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Somna-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Somna читает сон и его стадии, пульс, вариабельность пульса, дыхание, температуру запястья, кислород в крови, шаги, тренировки, дневной свет, кофеин и алкоголь — только чтобы объяснить вашу ночь и собрать план на вечер. Данные остаются на этом iPhone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Somna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CE4AB67B9D31554B42FECD0 /* Release configuration for PBXNativeTarget "SomnaWatchWidgets" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WatchWidgets/WatchWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchWidgets/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Somna.watchkitapp.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		785FB09DCE78100AB7BA3D52 /* Debug configuration for PBXNativeTarget "SomnaWatch" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchApp/WatchApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Somna;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Somna.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		C31E2C32DFA83AB12DA27628 /* Debug configuration for PBXNativeTarget "SomnaWatchWidgets" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WatchWidgets/WatchWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchWidgets/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Somna.watchkitapp.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		90F6DAB3F51F5B8F995D6093 /* Debug configuration for PBXNativeTarget "SomnaWidgets" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = SomnaWidgets/SomnaWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SomnaWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Somna;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Somna.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DA84059190BE6F99344D0BE /* Release configuration for PBXNativeTarget "SomnaWidgets" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = SomnaWidgets/SomnaWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RPQ7DDSR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SomnaWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Somna;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaroslavstrelkov.Somna.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CA948D3063C22A00604B23 /* Build configuration list for PBXProject "Somna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CA949B3063C22A00604B23 /* Debug configuration for PBXProject "Somna" */,
+				13CA949C3063C22A00604B23 /* Release configuration for PBXProject "Somna" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		13CA949D3063C22A00604B23 /* Build configuration list for PBXNativeTarget "Somna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CA949E3063C22A00604B23 /* Debug configuration for PBXNativeTarget "Somna" */,
+				13CA949F3063C22A00604B23 /* Release configuration for PBXNativeTarget "Somna" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		725E6DDDD4DAEC5CA5EE6983 /* Build configuration list for PBXNativeTarget "SomnaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785FB09DCE78100AB7BA3D52 /* Debug configuration for PBXNativeTarget "SomnaWatch" */,
+				1029418CFD136AE59662A699 /* Release configuration for PBXNativeTarget "SomnaWatch" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		7D0CAEC122072AC9C1699E3C /* Build configuration list for PBXNativeTarget "SomnaWatchWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31E2C32DFA83AB12DA27628 /* Debug configuration for PBXNativeTarget "SomnaWatchWidgets" */,
+				3CE4AB67B9D31554B42FECD0 /* Release configuration for PBXNativeTarget "SomnaWatchWidgets" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		24C65726B3153D08C8D03191 /* Build configuration list for PBXNativeTarget "SomnaWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F6DAB3F51F5B8F995D6093 /* Debug configuration for PBXNativeTarget "SomnaWidgets" */,
+				4DA84059190BE6F99344D0BE /* Release configuration for PBXNativeTarget "SomnaWidgets" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13CA948A3063C22A00604B23 /* Project object */;
+	validationLevel = 1;
+}
