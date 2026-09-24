@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Somna — sleep insights for iPhone and Apple Watch</title>
+  <desc id="desc">A quiet night palette with a sleep-stage timeline and a clear morning score.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17183D"/>
+      <stop offset="1" stop-color="#10112C"/>
+    </linearGradient>
+    <linearGradient id="morning" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8788FF"/>
+      <stop offset="1" stop-color="#B9B6FF"/>
+    </linearGradient>
+    <clipPath id="clip"><rect x="692" y="64" width="440" height="190" rx="20"/></clipPath>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#surface)"/>
+  <circle cx="1077" cy="46" r="105" fill="#7779FD" opacity=".08"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="64" y="76" fill="#B9B6FF" font-size="17" font-weight="600" letter-spacing="3">SLEEP, MADE CLEARER</text>
+    <text x="60" y="159" fill="#FAF9FF" font-size="72" font-weight="700" letter-spacing="-2">Somna</text>
+    <text x="64" y="203" fill="#D5D4E9" font-size="25" font-weight="400">Sleep insights and a calmer path</text>
+    <text x="64" y="237" fill="#D5D4E9" font-size="25" font-weight="400">to better rest.</text>
+    <g transform="translate(64 270)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="500">
+      <rect width="96" height="28" rx="14" fill="#2A2B55"/><text x="18" y="19" fill="#C9C8FF">iPHONE</text>
+      <rect x="108" width="132" height="28" rx="14" fill="#2A2B55"/><text x="126" y="19" fill="#C9C8FF">APPLE WATCH</text>
+      <rect x="252" width="104" height="28" rx="14" fill="#2A2B55"/><text x="270" y="19" fill="#C9C8FF">HEALTHKIT</text>
+    </g>
+  </g>
+  <rect x="680" y="52" width="464" height="214" rx="28" fill="#25264D" stroke="#42436E" stroke-width="1.5"/>
+  <g clip-path="url(#clip)">
+    <rect x="692" y="64" width="440" height="190" rx="20" fill="#F5F2FA"/>
+    <text x="720" y="99" fill="#38395A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="600">LAST NIGHT</text>
+    <text x="720" y="155" fill="#18193E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="600">78</text>
+    <text x="723" y="184" fill="#696A88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15">SLEEP SCORE</text>
+    <g transform="translate(818 115)">
+      <rect x="0" y="0" width="42" height="66" rx="15" fill="#5859F0"/>
+      <rect x="49" y="-29" width="44" height="44" rx="15" fill="#249DD1"/>
+      <rect x="49" y="23" width="44" height="59" rx="15" fill="#5859F0"/>
+      <rect x="100" y="0" width="43" height="58" rx="15" fill="#5859F0"/>
+      <rect x="100" y="-45" width="43" height="32" rx="14" fill="#249DD1"/>
+      <rect x="151" y="-10" width="45" height="76" rx="15" fill="#5859F0"/>
+      <rect x="151" y="-50" width="45" height="30" rx="14" fill="#249DD1"/>
+      <rect x="204" y="-1" width="44" height="52" rx="15" fill="#5859F0"/>
+      <rect x="204" y="-45" width="44" height="31" rx="14" fill="#249DD1"/>
+    </g>
+    <path d="M720 213H1104" stroke="#D8D7E5" stroke-width="1"/>
+    <text x="720" y="237" fill="#73738D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">REM</text>
+    <circle cx="766" cy="232" r="5" fill="#249DD1"/>
+    <text x="784" y="237" fill="#73738D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">CORE</text>
+    <circle cx="836" cy="232" r="5" fill="#5859F0"/>
+    <text x="855" y="237" fill="#73738D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">DEEP</text>
+    <circle cx="909" cy="232" r="5" fill="#191A8A"/>
+  </g>
+</svg>
